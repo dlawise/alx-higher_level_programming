@@ -6,7 +6,7 @@ class Square:
     """
     Square represents class
     """
-    def __int__(self, size=0):
+    def __init__(self, size=0):
         """
         Initialize an instance of Square class
 
