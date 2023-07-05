@@ -1,0 +1,9 @@
+say_my_name = __import__('3-say_my_name').say_my_name
+say_my_name("John", "Smith")
+# Output: My name is John Smith
+
+say_my_name("Bob")
+# Output: My name is Bob
+
+say_my_name(123, "Smith")
+# Raises TypeError: first_name must be a string or last_name must be a string

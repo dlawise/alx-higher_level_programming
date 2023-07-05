@@ -1,0 +1,12 @@
+add_integer = __import__('0-add_integer').add_integer
+result = add_integer(5, 7)
+print(result)  # Output: 12
+
+result = add_integer(3.8, 4.2)
+print(result)  # Output: 8
+
+result = add_integer(10)
+print(result)  # Output: 108
+
+result = add_integer(2, "3")
+# Raises TypeError: a must be an integer or b must be an integer

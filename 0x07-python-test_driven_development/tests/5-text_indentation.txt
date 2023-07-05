@@ -1,0 +1,16 @@
+text_indentation = __import__('5-text_indentation').text_indentation
+text_indentation("This is a sentence. This is another sentence?\
+And this is a third sentence: the end.")
+# Output:
+# This is a sentence.
+#
+# This is another sentence?
+#
+# And this is a third sentence:
+#
+# the end.
+
+text_indentation("   Some text with leading and trailing spaces.   ")
+# Output:
+# Some text with leading and trailing spaces.
+#
