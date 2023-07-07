@@ -1,20 +1,55 @@
-print_square = __import__('4-print_square').print_square
-print_square(5)
-# Output:
-# #####
-# #####
-# #####
-# #####
-# #####
+The ''4-print_square'' module
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Importing the function from the module:
+     >>> print_square = __import__('4-print_square').print_square
 
-print_square(3)
-# Output:
-# ###
-# ###
-# ###
 
-print_square(-2)
-# Raises ValueError: size must be >= 0
+This module defines a square-printing function ``print_square(size)``.
 
-print_square(4.5)
-# Raises TypeError: size must be an integer
+Squares are printed using the ``#`` character. The parameter ``size``
+represents the height and width of the square:
+    >>> print_square(1)
+    #
+
+    >>> print_square(4)
+    ####
+    ####
+    ####
+    ####
+
+    >>> print_square(10)
+    ##########
+    ##########
+    ##########
+    ##########
+    ##########
+    ##########
+    ##########
+    ##########
+    ##########
+    ##########
+
+If ``size`` is zero, the function prints nothing:
+    >>> print_square(0)
+
+The parameter ``size`` must be an integer:
+    >>> print_square("not an int")
+    TypeError: size must be an integer
+
+    >>> print_square(5.5)
+    TypeError: size must be an integer
+
+    >>> print_square(None)
+    TypeError: size must be an integer
+
+If ``size`` is less than zero:
+    >>> print_square(-7)
+    ValueError: size must be >= 0
+
+Type-checking occurs before value-checking:
+    >>> print_square(-7.5)
+    TypeError: size must be an integer
+
+At least one argument must be provided:
+    >>> print_square()
+    TypeError: print_square() missing 1 required positional argument: 'size'
