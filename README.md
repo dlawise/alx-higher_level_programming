@@ -1,7 +1,9 @@
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
+
 0x00. Python - Hello, World
+
 General
 Why Python programming is awesome
 Who created Python
@@ -14,7 +16,9 @@ How to use strings
 What are indexing and slicing in Python
 What is the official Python coding style and how to check your code with pycodestyle
 
+
 0x01. Python - if/else, loops, functions
+
 General
 Why Python programming is awesome
 Why indentation is so important in Python
@@ -33,7 +37,9 @@ Scope of variables
 What’s a traceback
 What are the arithmetic operators and how to use them
 
+
 0x02. Python - import & modules
+
 General
 Why Python programming is awesome
 How to import functions from another file
@@ -43,7 +49,9 @@ How to use the built-in function dir()
 How to prevent code in your script from being executed when imported
 How to use command line arguments with your Python programs
 
+
 0x03. Python - Data Structures: Lists, Tuples
+
 General
 Why Python programming is awesome
 What are lists and how to use them
@@ -58,7 +66,9 @@ What is tuple packing
 What is sequence unpacking
 What is the del statement and how to use it
 
+
 0x04. Python - More Data Structures: Set, Dictionary
+
 General
 Why Python programming is awesome
 What are sets and how to use them
@@ -72,7 +82,9 @@ How to iterate over a dictionary
 What is a lambda function
 What are the map, reduce and filter functions
 
+
 0x05. Python - Exceptions
+
 General
 Why Python programming is awesome
 What’s the difference between errors and exceptions
@@ -83,7 +95,9 @@ What’s the purpose of catching exceptions
 How to raise a builtin exception
 When do we need to implement a clean-up action after an exception
 
+
 0x06. Python - Classes and Objects
+
 General
 Why Python programming is awesome
 What is OOP
@@ -106,7 +120,9 @@ What is the __dict__ of a class and/or instance of a class and what does it cont
 How does Python find the attributes of an object or class
 How to use the getattr function
 
+
 0x07. Python - Test-driven development
+
 General
 Why Python programming is awesome
 What’s an interactive test
@@ -116,7 +132,9 @@ How to write documentation for each module and function
 What are the basic option flags to create tests
 How to find edge cases
 
+
 0x08. Python - More Classes and Objects
+
 General
 Why Python programming is awesome
 What is OOP
@@ -145,7 +163,9 @@ What is and what does contain __dict__ of a class and of an instance of a class
 How does Python find the attributes of an object or class
 How to use the getattr function
 
+
 0x09. Python - Everything is object
+
 General
 Why Python programming is awesome
 What is an object
@@ -162,7 +182,9 @@ What are the built-in mutable types
 What are the built-in immutable types
 How does Python pass variables to functions
 
+
 0x0A. Python - Inheritance
+
 General
 Why Python programming is awesome
 What is a superclass, baseclass or parentclass
@@ -176,3 +198,21 @@ How to override a method or attribute inherited from the base class
 Which attributes or methods are available by heritage to subclasses
 What is the purpose of inheritance
 What are, when and how to use isinstance, issubclass, type and super built-in functions
+
+
+0x0B. Python - Input/Output
+
+General
+Why Python programming is awesome
+How to open a file
+How to write text in a file
+How to read the full content of a file
+How to read a file line by line
+How to move the cursor in a file
+How to make sure a file is closed after using it
+What is and how to use the with statement
+What is JSON
+What is serialization
+What is deserialization
+How to convert a Python data structure to a JSON string
+How to convert a JSON string to a Python data structure
